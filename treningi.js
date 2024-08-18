@@ -5,7 +5,7 @@
              reps: 8
          }
      ]
- }*/
+ }
 
  function dateToString (date) {
      return date.toISOString().split('T')[0]
@@ -28,13 +28,10 @@
          </div>`
      }
      calendarNode.innerHTML = calendarHTML
- }
-
-///////////////////////////////////////////////////////////////////
-
+ }*/
 
  document.addEventListener('DOMContentLoaded', () => { 
-    renderCalendar()
+    //renderCalendar()
      const weightInput = document.querySelector('#KG_kalkulator')
      const repInput = document.querySelector('#REP_kalkulator')
      const masaInput = document.querySelector('#MASA_kalkulator')
