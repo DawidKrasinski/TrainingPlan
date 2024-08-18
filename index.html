@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dziennik treningowy</title>
+    <script src="treningi.js"></script>
+    <link rel="stylesheet" href="treningi.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  
+</head>
+
+<body>
+
+<div id="container">
+    <section id="plan_treningowy">
+        <span class="nazwa"> PLAN TRENINGOWY
+                <span onclick="dodajPlanTreningowy()" class="przycisk">
+                    <i class="fa-solid fa-plus"></i>
+                </span>
+                <span class="przycisk">
+                <i class="fa-solid fa-ellipsis"></i>
+                </span>
+        </span>
+        <div id="calendar"></div>
+    </section>
+
+    <section id="wyniki">
+        <span class="nazwa">WYNIKI
+            <span onclick="dodajWyniki()" class="przycisk">
+                <i class="fa-solid fa-plus"></i>
+            </span>
+            <span class="przycisk">
+                <i class="fa-solid fa-ellipsis"></i>
+            </span>
+        </span>
+    </section>
+
+    <section id="cele">
+        <span class="nazwa">CELE
+            <span onclick="dodajCele()" class="przycisk">
+                <i class="fa-solid fa-plus"></i>
+            </span>
+            <span class="przycisk">
+            <i class="fa-solid fa-ellipsis"></i>
+            </span>
+        </span>
+    </section>
+
+    <section id="treningi">
+        <span class="nazwa"> OSTATNIE TRENINGI
+                <span onclick="" class="przycisk">
+                    <i class="fa-solid fa-plus"></i>
+                </span>
+                <span class="przycisk">
+                <i class="fa-solid fa-ellipsis"></i>
+                </span>
+        </span>
+    </section>
+
+   <section id="kalkulator">
+        <span class="nazwa">KALKULATOR
+            <span class="przycisk">
+                <i class="fa-solid fa-ellipsis"></i>
+            </span>
+        </span>
+        <span class="informacje">
+            <div id="dane_kalkulator">
+                <span>
+                    <span>DANE:<br/><br/></span>
+                    <span>KG: </span><input id="KG_kalkulator" type="number"/>
+                <div style="font-size: 5px;"><br/><br/></div>
+                    <span>REP: </span><input id="REP_kalkulator" type="number"/>
+                <div style="font-size: 5px;"><br/><br/></div>
+                    <span>MASA: </span> <input id="MASA_kalkulator" type="number"/>
+                </span>
+            </div>
+
+            <div id="rezultaty_kalkulator">
+                <span>
+                    <span>REZULTATY:</span><br/><br/>
+                    1RM: <span id="1RM_wynik">0</span><br/>
+                    BW: <span id="BW_wynik">0</span>%<br/>
+                </span>
+            </div>
+        </span>
+   </section> 
+
+</div>
+   
+</body>
+</html>

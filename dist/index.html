@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dziennik treningowy</title>
+    <script src="/index.fa9b9547.js"></script>
+    <link rel="stylesheet" href="/index.159c0eb9.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  
+</head>
+
+<body>
+
+<div id="container">
+    <section id="plan_treningowy">
+        <span class="nazwa"> PLAN TRENINGOWY
+                <span onclick="dodajPlanTreningowy()" class="przycisk">
+                    <i class="fa-solid fa-plus"></i>
+                </span>
+                <span class="przycisk">
+                <i class="fa-solid fa-ellipsis"></i>
+                </span>
+        </span>
+        <div id="calendar"></div>
+    </section>
+
+    <section id="wyniki">
+        <span class="nazwa">WYNIKI
+            <span onclick="dodajWyniki()" class="przycisk">
+                <i class="fa-solid fa-plus"></i>
+            </span>
+            <span class="przycisk">
+                <i class="fa-solid fa-ellipsis"></i>
+            </span>
+        </span>
+    </section>
+
+    <section id="cele">
+        <span class="nazwa">CELE
+            <span onclick="dodajCele()" class="przycisk">
+                <i class="fa-solid fa-plus"></i>
+            </span>
+            <span class="przycisk">
+            <i class="fa-solid fa-ellipsis"></i>
+            </span>
+        </span>
+    </section>
+
+    <section id="treningi">
+        <span class="nazwa"> OSTATNIE TRENINGI
+                <span onclick="" class="przycisk">
+                    <i class="fa-solid fa-plus"></i>
+                </span>
+                <span class="przycisk">
+                <i class="fa-solid fa-ellipsis"></i>
+                </span>
+        </span>
+        <div id="trening1"></div>
+        <div id="trening2"></div>
+        <div id="trening3"></div>
+    </section>
+
+   <section id="kalkulator">
+        <span class="nazwa">KALKULATOR
+            <span class="przycisk">
+                <i class="fa-solid fa-ellipsis"></i>
+            </span>
+        </span>
+        <span class="informacje">
+            <div id="dane_kalkulator">
+                <span>
+                    <span>DANE:<br><br></span>
+                    <span class="przycisk" id="decrementWeightButton"><i class="fa-solid fa-minus"></i></span>
+                    KG: <input id="KG_kalkulator" type="number">
+                    <span class="przycisk" id="incrementWeightButton"><i class="fa-solid fa-plus"></i></span>
+
+                <div style="font-size: 5px"><br><br></div>
+
+                    <span class="przycisk" onclick="dodajPowtorzenia()"><i class="fa-solid fa-plus"></i></span>
+                        REP: <span id="REP_kalkulator" onclick="wprowadzPowtorzeniaKalkulator()">0</span>
+                    <span class="przycisk" onclick="odejmijPowtorzenia()"><i class="fa-solid fa-minus"></i></span>
+
+                <div style="font-size: 5px"><br><br></div>
+                
+                    <span class="przycisk" onclick="dodajMase()"><i class="fa-solid fa-plus"></i></span>
+                        MASA: <span id="MASA_kalkulator" onclick="wprowadzMaseKalkulator()">0</span>
+                    <span class="przycisk" onclick="odejmijMase()"><i class="fa-solid fa-minus"></i></span>
+                </span>
+            </div>
+
+            <div id="rezultaty_kalkulator">
+                <span>
+                    <span>REZULTATY:</span><br><br>
+                    1RM: <span id="1RM_wynik">0</span><br>
+                    BW: <span id="BW_wynik">0</span>%<br>
+
+                    <div id="przycisk_kalkulator" onclick="obliczKalkulator()">OBLICZ</div>
+
+
+                </span>
+            </div>
+        </span>
+   </section> 
+
+</div>
+   
+<script src="/treningi.3464ddca.js"></script></body>
+</html>

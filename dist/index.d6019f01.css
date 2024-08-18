@@ -1,0 +1,199 @@
+body {
+  box-sizing: border-box;
+  background-color: #dadada;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nazwa, .informacje {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  display: block;
+}
+
+#plan_treningowy {
+  background-color: #f4f4f4;
+  border: 2px solid gray;
+  border-radius: 30px;
+  min-height: 300px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.day {
+  float: left;
+  background-color: #fff;
+  border: 2px solid gray;
+  border-radius: 20px;
+  min-width: 270px;
+  min-height: 220px;
+  margin-top: 20px;
+  margin-left: 33px;
+}
+
+#wyniki {
+  float: left;
+  background-color: #f4f4f4;
+  border: 2px solid gray;
+  border-radius: 30px;
+  width: 420px;
+  min-height: 300px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+#wyniki .przycisk {
+  background-color: #fff;
+}
+
+#cele {
+  float: left;
+  background-color: #f4f4f4;
+  border: 2px solid gray;
+  border-radius: 30px;
+  width: 420px;
+  min-height: 300px;
+  margin-top: 50px;
+  margin-left: 70px;
+  padding: 20px;
+}
+
+.przycisk {
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid #000;
+  border-radius: 100%;
+  padding: 0 5px;
+  display: inline-block;
+}
+
+.przycisk:hover {
+  color: #fff;
+  background-color: #000;
+  border: 2px solid #000;
+}
+
+#treningi {
+  background-color: #f4f4f4;
+  border: 2px solid gray;
+  border-radius: 30px;
+  min-height: 300px;
+  margin-top: 446px;
+  padding: 20px;
+}
+
+#trening1, #trening2, #trening3 {
+  float: left;
+  background-color: #fff;
+  border: 2px solid gray;
+  border-radius: 20px;
+  min-width: 270px;
+  min-height: 220px;
+  margin-top: 20px;
+  margin-left: 33px;
+}
+
+#kalkulator {
+  background-color: #f4f4f4;
+  border: 2px solid gray;
+  border-radius: 30px;
+  width: 1000px;
+  min-height: 440px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 20px;
+}
+
+#dane_kalkulator {
+  float: left;
+  background-color: #fff;
+  border: 2px solid gray;
+  border-radius: 20px;
+  min-width: 400px;
+  min-height: 300px;
+  margin-top: 20px;
+  margin-left: 50px;
+  padding-top: 30px;
+}
+
+#rezultaty_kalkulator {
+  float: right;
+  background-color: #fff;
+  border: 2px solid gray;
+  border-radius: 20px;
+  min-width: 400px;
+  min-height: 300px;
+  margin-top: 20px;
+  margin-right: 50px;
+  padding-top: 30px;
+}
+
+#przycisk_kalkulator {
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid #000;
+  border-radius: 20px;
+  margin-top: 23px;
+  padding: 8px;
+  display: inline-block;
+}
+
+#przycisk_kalkulator:hover {
+  color: #fff;
+  background-color: #000;
+  border: 2px solid #000;
+}
+
+#MASA_kalkulator {
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 3px 6px;
+  display: inline-block;
+}
+
+#MASA_kalkulator:hover {
+  color: #fff;
+  background-color: #000;
+  border: 2px solid #000;
+}
+
+#KG_kalkulator {
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 3px 6px;
+  display: inline-block;
+}
+
+#KG_kalkulator:hover {
+  color: #fff;
+  background-color: #000;
+  border: 2px solid #000;
+}
+
+#REP_kalkulator {
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 3px 6px;
+  display: inline-block;
+}
+
+#REP_kalkulator:hover {
+  color: #fff;
+  background-color: #000;
+  border: 2px solid #000;
+}
+/*# sourceMappingURL=index.d6019f01.css.map */
