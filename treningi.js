@@ -1,10 +1,10 @@
-/*const exercisePlan = {
-     '2024-08-05': [
-         {
-             name: 'Przysiady',
-             reps: 8
-         }
-     ]
+const exercisePlan = {
+    //  '2024-08-05': [
+    //      {
+    //          name: 'Przysiady',
+    //          reps: 8
+    //      }
+    //  ]
  }
 
  function dateToString (date) {
@@ -24,14 +24,14 @@
                  ${plan.map(exercise => `<li>${exercise.name} - ${exercise.reps}</li>`)
                  }
              </ul>` : 'Brak planu'}
-             <button>Dodaj tessr</button>
+             <button>Dodaj</button>
          </div>`
      }
      calendarNode.innerHTML = calendarHTML
- }*/
+ }
 
  document.addEventListener('DOMContentLoaded', () => { 
-    //renderCalendar()
+    renderCalendar()
      const weightInput = document.querySelector('#KG_kalkulator')
      const repInput = document.querySelector('#REP_kalkulator')
      const masaInput = document.querySelector('#MASA_kalkulator')
