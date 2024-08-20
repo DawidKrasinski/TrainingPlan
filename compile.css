@@ -12,41 +12,34 @@ body {
   margin-right: auto;
 }
 
-.nazwa {
+.name,
+.contents {
   display: block;
   font-size: 40px;
   text-align: center;
   font-weight: 700;
 }
 
-.informacje {
-  display: block;
-  font-size: 40px;
-  text-align: center;
-  font-weight: 700;
-}
-
-#plan_treningowy {
-  margin-top: 20px;
+#trainigPlan {
+  margin-top: 30px;
   min-height: 300px;
   padding: 20px;
   border: 2px solid gray;
   border-radius: 30px;
   background-color: #f4f4f4;
-
-  .day {
-    background-color: white;
-    margin-left: 33px;
-    margin-top: 20px;
-    min-width: 270px;
-    min-height: 220px;
-    float: left;
-    border: 2px solid gray;
-    border-radius: 20px;
-  }
+}
+#trainigPlan .day {
+  background-color: white;
+  margin-left: 33px;
+  margin-top: 20px;
+  min-width: 270px;
+  min-height: 220px;
+  float: left;
+  border: 2px solid gray;
+  border-radius: 20px;
 }
 
-#wyniki {
+#achivments {
   min-height: 300px;
   margin-top: 50px;
   background-color: #f4f4f4;
@@ -57,7 +50,7 @@ body {
   border-radius: 30px;
 }
 
-#cele {
+#goals {
   min-height: 300px;
   margin-top: 50px;
   background-color: #f4f4f4;
@@ -69,7 +62,7 @@ body {
   border-radius: 30px;
 }
 
-.przycisk {
+.button {
   display: inline-block;
   padding: 0 5px;
   text-align: center;
@@ -77,14 +70,13 @@ body {
   border-radius: 100%;
   cursor: pointer;
 }
-
-.przycisk:hover {
+.button:hover {
   border: 2px solid black;
   background-color: black;
   color: white;
 }
 
-#treningi {
+#workouts {
   margin-top: 446px;
   min-height: 300px;
   padding: 20px;
@@ -93,40 +85,7 @@ body {
   background-color: #f4f4f4;
 }
 
-#trening1 {
-  background-color: white;
-  margin-left: 33px;
-  margin-top: 20px;
-  min-width: 270px;
-  min-height: 220px;
-  float: left;
-  border: 2px solid gray;
-  border-radius: 20px;
-}
-
-#trening2 {
-  background-color: white;
-  margin-top: 20px;
-  margin-left: 33px;
-  min-width: 270px;
-  min-height: 220px;
-  float: left;
-  border: 2px solid gray;
-  border-radius: 20px;
-}
-
-#trening3 {
-  background-color: white;
-  margin-top: 20px;
-  margin-left: 33px;
-  min-width: 270px;
-  min-height: 220px;
-  float: left;
-  border: 2px solid gray;
-  border-radius: 20px;
-}
-
-#kalkulator {
+#calculator {
   min-height: 440px;
   margin-top: 50px;
   background-color: #f4f4f4;
@@ -136,33 +95,32 @@ body {
   border-radius: 30px;
   margin-bottom: 50px;
 }
-
-#dane_kalkulator {
+#calculator_values {
+  display: inline-block;
   padding-top: 30px;
   background-color: white;
   margin-top: 20px;
   margin-left: 50px;
-  min-width: 400px;
-  min-height: 300px;
+  width: 400px;
+  height: 300px;
   border: 2px solid gray;
   border-radius: 20px;
   float: left;
 }
-
-#rezultaty_kalkulator {
+#calculator_results {
+  display: inline-block;
   padding-top: 30px;
   background-color: white;
   margin-top: 20px;
   margin-right: 50px;
-  min-width: 400px;
-  min-height: 300px;
+  width: 400px;
+  height: 300px;
   border: 2px solid gray;
   border-radius: 20px;
   float: right;
 }
 
-#MASA_kalkulator {
-  display: inline-block;
+.input {
   width: 200px;
   height: 30px;
   text-align: center;
@@ -170,42 +128,21 @@ body {
   border-radius: 10px;
   cursor: pointer;
 }
-
-#MASA_kalkulator:hover {
+.input:hover {
   border: 2px solid black;
   background-color: black;
   color: white;
 }
 
-#KG_kalkulator {
-  display: inline-block;
-  width: 200px;
-  height: 30px;
-  text-align: center;
-  border: 2px solid black;
-  border-radius: 10px;
-  cursor: pointer;
+#addTrainingPlan {
+  margin-top: 30px;
+  width: 1000px;
+  height: 900px;
+  border: 2px solid gray;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f4f4f4;
 }
 
-#KG_kalkulator:hover {
-  border: 2px solid black;
-  background-color: black;
-  color: white;
-}
-
-#REP_kalkulator {
-  display: inline-block;
-  width: 200px;
-  height: 30px;
-  text-align: center;
-  border: 2px solid black;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-#REP_kalkulator:hover {
-  border: 2px solid black;
-  background-color: black;
-  color: white;
-  line-height: normal;
-}
+/*# sourceMappingURL=compile.css.map */
