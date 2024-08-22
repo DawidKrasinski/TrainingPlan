@@ -8,21 +8,34 @@ body {
 
 #container {
   width: 1000px;
+  height: 1750px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.name,
-.contents {
+.name {
   display: block;
   font-size: 40px;
   text-align: center;
   font-weight: 700;
 }
 
+.contents {
+  display: flex;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 #trainigPlan {
   margin-top: 30px;
-  min-height: 300px;
+  height: 300px;
+  width: 1000px;
   padding: 20px;
   border: 2px solid gray;
   border-radius: 30px;
@@ -30,32 +43,28 @@ body {
 }
 
 .day {
+  margin-top: 30px;
   background-color: white;
-  width: 400px;
-  height: 300px;
+  width: 420px;
+  height: 350px;
   border: 2px solid gray;
   border-radius: 20px;
 }
 
 #achivments {
-  min-height: 300px;
-  margin-top: 50px;
+  height: 300px;
   background-color: #f4f4f4;
   width: 420px;
   padding: 20px;
-  float: left;
   border: 2px solid gray;
   border-radius: 30px;
 }
 
 #goals {
-  min-height: 300px;
-  margin-top: 50px;
+  height: 300px;
   background-color: #f4f4f4;
   width: 420px;
   padding: 20px;
-  margin-left: 70px;
-  float: left;
   border: 2px solid gray;
   border-radius: 30px;
 }
@@ -82,8 +91,8 @@ body {
 }
 
 #workouts {
-  margin-top: 446px;
-  min-height: 300px;
+  height: 300px;
+  width: 1000px;
   padding: 20px;
   border: 2px solid gray;
   border-radius: 30px;
@@ -91,8 +100,7 @@ body {
 }
 
 #calculator {
-  min-height: 440px;
-  margin-top: 50px;
+  height: 440px;
   background-color: #f4f4f4;
   width: 1000px;
   padding-top: 20px;
@@ -101,7 +109,6 @@ body {
   margin-bottom: 50px;
 
   &_values {
-    display: inline-block;
     padding-top: 30px;
     background-color: white;
     margin-top: 20px;
@@ -110,11 +117,9 @@ body {
     height: 300px;
     border: 2px solid gray;
     border-radius: 20px;
-    float: left;
   }
 
   &_results {
-    display: inline-block;
     padding-top: 30px;
     background-color: white;
     margin-top: 20px;
@@ -143,9 +148,9 @@ body {
 
 #addTrainingPlan {
   margin-top: 30px;
-  padding: 20px;
+  padding: 40px;
   width: 1000px;
-  height: auto;
+  height: 1600px;
   border: 2px solid gray;
   border-radius: 30px;
   margin-left: auto;
@@ -153,4 +158,5 @@ body {
   background-color: #f4f4f4;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
